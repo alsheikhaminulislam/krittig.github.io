@@ -1,0 +1,194 @@
+canvas.tsparticles-canvas-el {
+    background-color: transparent !important;
+    z-index: 3 !important;
+}
+
+:root {
+    --p-color: #1684A2;
+}
+
+/* Primary Color */
+.discord-text .st0,
+.status-text path,
+.discord-icon .st0,
+.status-icon path {
+    fill: var(--p-color) !important;
+}
+
+.swal2-icon.swal2-info,
+.cobalt-update-box .update-icon,
+.header-theme,
+.news-title,
+.top-text,
+.error-title,
+.lr-title,
+.p-icon,
+.theme-text,
+.other-btn:after,
+.other-btn:focus:after,
+.footer-text-header:after,
+.widget-header-txt:after,
+.discord-text .icon:after,
+.status-text .icon:after,
+.wiki-page-card span strong,
+.dropdown-item.d-header,
+.rules-menu .active span,
+.rules-menu .active i,
+.welcome-title {
+    color: var(--p-color) !important;
+}
+
+a,
+a:hover,
+a:focus {
+    color: var(--p-color)
+}
+
+.color-overlay {
+    background: linear-gradient(var(--p-color), #101010);
+}
+
+.swal2-icon.swal2-info,
+.page-item.active .page-link,
+.user-nav-link.active,
+.profile-about-box,
+.rules-menu-link.active {
+    border-color: #1684A2 !important;
+}
+
+.swal2-styled.swal2-confirm,
+.widget-header-txt:after,
+.discord-text .icon:after,
+.status-text .icon:after,
+.nav-link.store-link,
+.footer-text-header:after,
+.badge-theme,
+#toast-container,
+.progress-bar,
+.login-overlay,
+.register-overlay,
+.vote-tabs .btn.btn-theme.active,
+.p-color-overlay,
+.modal-header,
+.btn-theme,
+.button-checkbox>.active,
+.spoiler .spoiler-toggle,
+.spoiler .spoiler-title,
+.page-item.active .page-link,
+.btn.profile-btn.active:after,
+.cc-window.cc-floating .cc-highlight .cc-btn.cc-allow {
+    background-color: var(--p-color) !important;
+}
+
+.swal2-styled.swal2-confirm:hover,
+.spoiler .spoiler-toggle:hover,
+.spoiler .spoiler-title:hover,
+.btn-theme:hover {
+    background-color: var(--p-color) !important;
+    filter: brightness(0.85)
+}
+
+.wiki-menu .active.dropdown-toggle::after {
+    border-top-color: var(--p-color) !important;
+    border-bottom-color: var(--p-color) !important;
+}
+
+/* Header */
+.header:after {
+    height: 227.5px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
+}
+
+.header:before {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), #101010);
+}
+
+.header {
+    background-position: center center !important
+}
+
+@media (min-width: 769px) {
+    .header {
+        height: 475px
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 340px
+    }
+}
+
+@media (min-width: 769px) {
+    .logo {
+        height: 200px;
+        margin-top: 127.5px
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 130px;
+        margin-top: 90px
+    }
+}
+
+.status-text,
+.discord-text {
+    margin-top: 203.5px
+}
+
+@media (max-width: 1100px) {
+
+    .status-box-container .text,
+    .discord-box-container .text {
+        display: none
+    }
+}
+
+.line-scale>div {
+    background-color: #FFFFFF;
+}
+
+/* Other */
+.login-overlay,
+.register-overlay {
+    opacity: 0.5 !important
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: -15px !important
+}
+
+.webp .header {
+    /* background: url('/uploads/53d4c7f9d80125a268744aa10fd76a9866ba8607headerbg.webp') no-repeat; */
+}
+
+.no-webp .header {
+    /* background: url('/uploads/k5BXmrj.jpg') no-repeat; */
+}
+
+.navbar-bottom .store-link:after,
+.navbar-bottom .store-link:focus:after,
+.navbar-top-new .store-link:after,
+.navbar-top-new .store-link:focus:after {
+    box-shadow: 0px 0px 12px 0px #1684A2
+}
+
+.p-image-frame {
+    z-index: 1;
+    opacity: 0.7
+}
+
+.store-box {
+    border: 3px solid #1684A2;
+    box-shadow: 0 0 10px rgb(22 132 162 / 50%);
+}
+
+.webp .store-box {
+    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(https://cdn.discordapp.com/attachments/1047827180371050517/1059440120303988736/12-wp5929668.jpg) no-repeat center;
+}
+
+.no-webp .store-box {
+    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(https://cdn.discordapp.com/attachments/1047827180371050517/1059440120303988736/12-wp5929668.jpg) no-repeat center;
+}
