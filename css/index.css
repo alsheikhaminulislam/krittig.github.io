@@ -161,11 +161,11 @@ a:focus {
 }
 
 .webp .header {
-    /* background: url('/uploads/53d4c7f9d80125a268744aa10fd76a9866ba8607headerbg.webp') no-repeat; */
+    background: url('/uploads/53d4c7f9d80125a268744aa10fd76a9866ba8607headerbg.webp') no-repeat;
 }
 
 .no-webp .header {
-    /* background: url('/uploads/k5BXmrj.jpg') no-repeat; */
+    background: url('/uploads/k5BXmrj.jpg') no-repeat;
 }
 
 .navbar-bottom .store-link:after,
@@ -186,9 +186,9 @@ a:focus {
 }
 
 .webp .store-box {
-    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(https://cdn.discordapp.com/attachments/1047827180371050517/1059440120303988736/12-wp5929668.jpg) no-repeat center;
+    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(/uploads/4642441007f22e380696591276191f939066fd81store_box_img.webp) no-repeat center;
 }
 
 .no-webp .store-box {
-    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(https://cdn.discordapp.com/attachments/1047827180371050517/1059440120303988736/12-wp5929668.jpg) no-repeat center;
+    background: linear-gradient(to bottom, rgba(22 132 162 / 70%), rgba(22 132 162 / 70%)), url(/uploads/bg-optifine-2-5e0d264068f316e2e8be28a0907ebbf9.png) no-repeat center;
 }
